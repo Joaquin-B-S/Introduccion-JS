@@ -67,3 +67,9 @@ for (let numero of numeros) {
 numeros.forEach((numero) => {
     console.log("Número:", numero);
 });
+
+// MAP
+const numerosMultiplicados = numeros.map((numero) => {
+    return numero * 2;
+});
+console.log("Números multiplicados:", numerosMultiplicados);
